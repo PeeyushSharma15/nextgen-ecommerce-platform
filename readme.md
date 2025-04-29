@@ -6,64 +6,75 @@ A complete E-Commerce web application built using the MERN Stack (MongoDB, Expre
 
 ## 🚀 Features
 
-### 👤 User
+### 👤 User Features
+
 - User Registration & Login (JWT)
-- View Products, Search & Filter
+- Browse Products, Search & Filter
 - Add to Cart & Checkout
-- Order Tracking
+- Track Orders
 - Leave Product Reviews
 - PayPal Payment Integration
 
-### 🛠️ Admin
+### 🛠 Admin Features
+
 - Admin Authentication
-- Product CRUD (Create, Read, Update, Delete)
+- Product Management (Create, Read, Update, Delete)
 - Order Management
 - User Management
 - Sales Analytics Dashboard
 
 ---
 
-## 🏗️ Tech Stack
+## 🏗 Tech Stack
 
-- **Frontend**: React, Vite, Tailwind CSS, ShadCN-UI
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Auth**: JWT, bcrypt
-- **Payment**: PayPal REST API
-- **Image Upload**: Cloudinary
+- Frontend: React, Vite, Tailwind CSS, ShadCN-UI
+- Backend: Node.js, Express.js
+- Database: MongoDB
+- Authentication: JWT, bcrypt
+- Payment Integration: PayPal REST API
+- Image Upload: Cloudinary
 
 ---
-
-## 📁 Project Structure
-
-### Backend
-
 
 ## 🧪 Steps to Run the MERN E-Commerce Project Locally
 
 ### ✅ Prerequisites
 
-Make sure the following are installed on your system:
+Ensure the following tools are installed:
 
-- **Node.js** (v16 or later)
-- **npm** or **yarn**
-- **MongoDB** (local or cloud like MongoDB Atlas)
-- **Git**
-- (Optional) VS Code for development
+- [Node.js](https://nodejs.org/) (v16 or later)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+- [MongoDB](https://www.mongodb.com/) (Local or Atlas)
+- [Git](https://git-scm.com/)
+- (Optional) [VS Code](https://code.visualstudio.com/)
 
 ---
 
-Backend Setup
+### 📦 Backend Setup
 
+
+# Navigate to the server directory
+```
 cd server
+```
+
+# Install backend dependencies
+```
 npm install
-npm run dev
+```
+### Frontend Setup
 
-Frontend Setup
-
+# Navigate to the client directory
+```
 cd ../client
+```
+
+# Install frontend dependencies
+```
 npm install
+```
+
+# Start the frontend development server
+```
 npm run dev
-
-
-Frontend runs at: http://localhost:5173
+```
