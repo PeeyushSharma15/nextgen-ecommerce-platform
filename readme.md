@@ -53,28 +53,28 @@ Ensure the following tools are installed:
 ### 📦 Backend Setup
 
 
-# Navigate to the server directory
+#### Navigate to the server directory
 ```
 cd server
 ```
 
-# Install backend dependencies
+#### Install backend dependencies
 ```
 npm install
 ```
 ### Frontend Setup
 
-# Navigate to the client directory
+#### Navigate to the client directory
 ```
 cd ../client
 ```
 
-# Install frontend dependencies
+#### Install frontend dependencies
 ```
 npm install
 ```
 
-# Start the frontend development server
+#### Start the frontend development server
 ```
 npm run dev
 ```
